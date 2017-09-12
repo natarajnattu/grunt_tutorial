@@ -1,0 +1,1 @@
+.btn{background:#fff;border:1px solid #00f;padding:10px;color:#333}.btn-lg{width:200px}

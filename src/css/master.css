@@ -1,0 +1,9 @@
+.btn{
+    background: white;
+    border: 1px solid blue;
+    padding: 10px;
+    color: #333;
+}
+.btn-lg{
+  width: 200px
+}
