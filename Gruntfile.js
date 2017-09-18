@@ -36,7 +36,7 @@ module.exports = function(grunt) {
       },
       build:{
         files:{
-          'dist/css/master.min.js': 'src/css/master.css',
+          'dist/css/master.min.css': 'src/css/master.css',
         }
       }
     },
@@ -64,7 +64,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
-
+  grunt.loadNpmTasks('grunt-js-test');
   // register tasks you want to
   grunt.registerTask("default", ["jshint", "uglify", "cssmin", "htmlmin"]);
 };

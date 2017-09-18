@@ -9,7 +9,8 @@
     "grunt-contrib-less": "latest",
     "grunt-contrib-cssmin": "latest",
     "grunt-contrib-watch": "latest",
-    "grunt-contrib-htmlmin": "latest"
+    "grunt-contrib-htmlmin": "latest",
+    "grunt-js-test": "latest"
   },
   "description": "The Metaverse virtual reality. The final outcome of all virtual worlds, augmented reality, and the Internet."
 }
