@@ -1,19 +1,19 @@
 > minify, jshint, cssminify, htmlminify in one project, change the file names and project structure.
 
 > clone the repository,
+```sh
+$ cd project folder,
 
-> cd project folder,
-
-> npm install
-
+$ sudo npm install
+```
 > after dependices installed
 
 > in command line type:
-
-> grunt
-
+```sh
+$ grunt
+```
 > you can specifically do tasks by names also, see the gruntfile.js
-
-> grunt htmlmin
-
-> grunt cssmin
+```sh
+$ grunt htmlmin
+$ grunt cssmin
+```
